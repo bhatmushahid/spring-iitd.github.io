@@ -11,7 +11,7 @@ permalink: /team/
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team**  -->
 
 
-Jump to [PhD Scholars](#phd-scholars), [Masters Students](#masters-students), [Alumni](#alumni), [Former Visitors and BTech/ MTech students](#former-visitors-and-btech-mtech-students).
+Jump to [PhD Scholars](#phd-scholars), [M.S.(R) Scholars](#msr-scholars), [Alumni](#alumni), [Former Visitors and BTech/ MTech students](#former-visitors-and-btech-mtech-students).
 
 
 ## Staff
@@ -118,10 +118,10 @@ Jump to [PhD Scholars](#phd-scholars), [Masters Students](#masters-students), [A
 </div>
 {% endif %}
 
-## Research Assistants
+## M.S.(R) Scholars
 
 {% assign number_printed = 0 %}
-{% for member in site.data.ra %}
+{% for member in site.data.msr %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 

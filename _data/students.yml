@@ -12,7 +12,7 @@
 - name: Arun Kumar Jindal
   photo: arun.jpg
   info: Part-time, Research Scientist, TCS Research
-  email: arunkumarjindal@gmail.com
+  email: arunkumarjindal[at]gmail.com
   website: https://scholar.google.co.in/citations?user=k_GpSFMAAAAJ&hl=en
   project: Trustworthy ML for Biometric Systems
   number_educ: 2
@@ -22,7 +22,7 @@
 - name: Subrat Kumar Swain
   photo: subrat.jpeg
   info: "PMRF Fellow, UQ-IITD Research Academy (Co-supervisor: Prof. Dan Kim)"
-  email: s.swain@uq.edu.au
+  email: s.swain[at]uq.edu.au
   website: https://swainsubrat.github.io/
   project: Adversarial AI Attacks and Defenses in Intrusion Detection System for IoT
   number_educ: 1
@@ -31,7 +31,7 @@
 - name: Isha Pali 
   photo: isha.jpeg
   info: "UQ-IITD Research Academy (Co-supervisor: Prof. Dan Kim)"
-  email: i.pali@uq.edu.au
+  email: i.pali[at]uq.edu.au
   website: https://www.linkedin.com/in/isha-pali-532a63129/
   project: Adversarial Cyber-Attacks and Defences for In-Vehicle Networks
   number_educ: 2
@@ -41,7 +41,7 @@
 - name: Sonali Rout  
   photo: sonali.jpeg
   info: School of IT, IIT Delhi
-  email: sonalirout105@gmail.com
+  email: sonalirout105[at]gmail.com
   website: https://www.linkedin.com/in/sonali-rout-621925227/
   project: Unmanned Air Vehicle (UAV) Security
   number_educ: 2
@@ -51,7 +51,7 @@
 - name: Priyansh Singh  
   photo: priyansh.jpg
   info: Department of CSE, IIT Delhi
-  email: priyansh@cse.iitd.ac.in
+  email: priyansh[at]cse.iitd.ac.in
   website: https://priyanshs.me/
   project: Towards Securing Next Generation Cellular Network for IoT
   number_educ: 2
@@ -61,17 +61,16 @@
 - name: Mehreen Jabeen  
   photo: mehreen.jpeg
   info: Department of CSE, IIT Delhi (Co-supervisor - Prof. Rijurekha Sen)
-  email: mehreen.jabbeen@cse.iitd.ac.in
+  email: mehreen.jabbeen[at]cse.iitd.ac.in
   website: https://www.linkedin.com/in/mehreen-jabeen-107819160/
   project: Securing Machine Learning to Develop Secure, Reliable, and Privacy-preserving Edge-AI Technology
-  number_educ: 2
-  education1: Masters,
-  education2: Bachelors,
+  number_educ: 1
+  education1: Bachelors, NIT Srinagar
 
 - name: Narayan Ji Mishra 
   photo: narayan.jpeg
   info: School of IT, IIT Delhi
-  email: narayanjmnnit@gmail.com
+  email: narayanjmnnit[at]gmail.com
   website: https://www.linkedin.com/in/narayan-ji-mishra-10b48222a/
   project: Biometric Security
   number_educ: 2
@@ -81,7 +80,7 @@
 - name: Neha 
   photo: neha.jpg
   info: TBO Fellow, Department of CSE, IIT Delhi
-  email: nehah000@gmail.com
+  email: nehah000[at]gmail.com
   website:
   project: Towards Securing 5G Cellular Network from Fake Base Stations
   number_educ: 2
@@ -91,12 +90,23 @@
 - name: Avinash Jha
   photo: avinash.jpeg
   info: Department of CSE, IIT Delhi
-  email: avinash.jha2493@gmail.com
+  email: avinash.jha2493[at]gmail.com
   website: https://www.linkedin.com/in/avinash-jha-70213476/
   project: Lightweight Intrusion Detection System for Resource-constraint Endpoints
   number_educ: 2
   education1: Masters, BITS Pilani
   education2: Bachelors, Army Institute of Technology, Pune
+
+- name: Amber Hayat
+  photo: amber.jpg
+  info: School of IT, IIT Delhi (Co-supervisor - Prof. A.K. Bhateja)
+  email: anz208484[at]iitd.ac.in
+  website: https://dhamber.github.io/about/
+  project: "Biometric Security: Biometric Template Protection"
+  number_educ: 2
+  education1: Masters, IIT-ISM Dhanbad
+  education2: Bachelors, Mahatma Jyotiba Phule Rohilkhand University
+
 
 - name: "This could be you!"
   photo: rock.jpg

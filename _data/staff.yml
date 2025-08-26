@@ -11,10 +11,21 @@
 
 - name: Vireshwar Kumar
   photo: viresh sir.jpg
-  info: Assistant professor, Department of CSE, IIT Delhi
+  info: Assistant Professor, Department of CSE, IIT Delhi
   email: viresh[at]cse.iitd.ac.in
   website: https://www.cse.iitd.ernet.in/~viresh/
   number_educ: 3
   education1: Postdoctoral Research Associate in the Department of Computer Science at Purdue University under the supervision of <a href="https://www.cs.purdue.edu/homes/dxu/"> Prof. Dongyan Xu </a> 
   education2: Ph.D. Computer Engineering, 2016 Virginia Tech with <a href="https://ece.vt.edu/people/profile/park.html">Prof. Jerry Park</a>
   education3: B.Tech. in Electrical Engineering at IIT Delhi, 2009
+
+
+- name: Vikas Maurya
+  photo: vikas.jpg
+  info: Postdoctoral Fellow, Department of CSE, IIT Delhi
+  email: vikasmauryajec[at]gmail.com
+  website: https://sites.google.com/view/8biskit/home?authuser=0
+  number_educ: 3
+  education1: Ph.D in CSE at IIT Kanpur
+  education2: M.Tech. in CSE-IS at NIT, Surathkal
+  education3: B.Eng. in IT at JEC, Jabalpur
