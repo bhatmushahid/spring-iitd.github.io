@@ -1,0 +1,15 @@
+site_name: Anupam's HowTOs
+theme: readthedocs
+nav:
+    - About: "index.md"
+    - 'Login proxy':
+        - 'Logging In': "internet_on_vm.md"
+        - 'Internet on Terminal': "internet-on-my-terminal.md"
+    - 'SSH : Working remotely': "living-life-in-an-ssh-session.md"
+    - 'Hosting your website': "host-your-website.md"
+    - 'Package Installation (APT)' : "package-installation.md"
+    - 'Using HPC': 'using-hpc.md'
+    - 'Using Conda': 'using-conda.md'
+    - 'Raspberry Pi': "wifi-on-raspberry-pi.md"
+    - 'Git config': "git-errors.md"
+    - 'Docker Config': "docker-proxy-settings.md"
