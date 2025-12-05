@@ -1,15 +1,43 @@
-site_name: Anupam's HowTOs
-theme: readthedocs
+site_name: SPRING Lab Documentation
+repo_name: SPRING Lab
+repo_url: https://github.com/spring-iitd/
+
+theme:
+  name: material
+  favicon: ./imgs/logo-circle.png
+  logo: ./imgs/logo-circle.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  homepage: https://spring.iitd.ac.in
+
 nav:
     - About: "index.md"
-    - 'Login proxy':
+    - 'Proxy Login':
         - 'Logging In': "internet_on_vm.md"
         - 'Internet on Terminal': "internet-on-my-terminal.md"
+    - 'Working with Docker':
+        - 'Installing Docker': "docker_install.md"
+        - 'Docker Config': "docker_proxy_settings.md"
     - 'SSH : Working remotely': "living-life-in-an-ssh-session.md"
-    - 'Hosting your website': "host-your-website.md"
     - 'Package Installation (APT)' : "package-installation.md"
     - 'Using HPC': 'using-hpc.md'
     - 'Using Conda': 'using-conda.md'
     - 'Raspberry Pi': "wifi-on-raspberry-pi.md"
     - 'Git config': "git-errors.md"
-    - 'Docker Config': "docker-proxy-settings.md"
+

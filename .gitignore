@@ -4,3 +4,4 @@ _site
 *node*
 *DS_*
 venv
+./docs/site/
