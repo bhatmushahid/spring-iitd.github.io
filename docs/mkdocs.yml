@@ -2,8 +2,13 @@ site_name: SPRING Lab Documentation
 repo_name: SPRING Lab
 repo_url: https://github.com/spring-iitd/
 
+plugins:
+  - search
+  - meta
+
 theme:
   name: material
+  custom_dir: overrides
   favicon: ./imgs/logo-circle.png
   logo: ./imgs/logo-circle.png
   icon:
@@ -29,15 +34,27 @@ extra:
 nav:
     - About: "index.md"
     - 'Proxy Login':
+        - 'Setting up Proxy': "proxy_setup.md"
         - 'Logging In': "internet_on_vm.md"
-        - 'Internet on Terminal': "internet-on-my-terminal.md"
+        - 'Internet on Terminal': "internet_on_my_terminal.md"
     - 'Working with Docker':
         - 'Installing Docker': "docker_install.md"
         - 'Docker Config': "docker_proxy_settings.md"
-    - 'SSH : Working remotely': "living-life-in-an-ssh-session.md"
-    - 'Package Installation (APT)' : "package-installation.md"
-    - 'Using HPC': 'using-hpc.md'
-    - 'Using Conda': 'using-conda.md'
-    - 'Raspberry Pi': "wifi-on-raspberry-pi.md"
-    - 'Git config': "git-errors.md"
+    - 'SSH : Working remotely': "living_life_in_an_ssh_session.md"
+    - 'Package Installation (APT)' : "package_installation.md"
+    - 'Using HPC': 'using_hpc.md'
+    - 'Using Conda': 'using_conda.md'
+    - 'Raspberry Pi': "wifi_on_raspberry_pi.md"
+    - 'Git config': "git_errors.md"
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

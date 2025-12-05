@@ -1,0 +1,42 @@
+{% include "partials/tags.html" %}
+{% include "partials/actions.html" %}
+{% if "\u003ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+  {% if page.meta.authors or page.meta.date %}
+  <div class="md-content__meta-info" style="margin-top: -0.5rem; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); color: var(--md-default-fg-color--light); font-size: 0.8rem;">
+    {% if page.meta.authors %}
+    <span style="margin-right: 1rem;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1em; height: 1em; vertical-align: -0.125em; fill: currentColor;"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4Z"/></svg>
+      {% if page.meta.authors is iterable and page.meta.authors is not string %}{{ page.meta.authors | join(", ") }}{% else %}{{ page.meta.authors }}{% endif %}
+    </span>
+    {% endif %}
+    {% if page.meta.date %}
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1em; height: 1em; vertical-align: -0.125em; fill: currentColor;"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
+      {{ page.meta.date }}
+    </span>
+    {% endif %}
+  </div>
+  {% endif %}
+  {{ page.content }}
+{% else %}
+  {% set parts = page.content.split('</h1>', 1) %}
+  {{ parts[0] }}</h1>
+  {% if page.meta.authors or page.meta.date %}
+  <div class="md-content__meta-info" style="margin-top: -0.5rem; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); color: var(--md-default-fg-color--light); font-size: 0.8rem;">
+    {% if page.meta.authors %}
+    <span style="margin-right: 1rem;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1em; height: 1em; vertical-align: -0.125em; fill: currentColor;"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4Z"/></svg>
+      {% if page.meta.authors is iterable and page.meta.authors is not string %}{{ page.meta.authors | join(", ") }}{% else %}{{ page.meta.authors }}{% endif %}
+    </span>
+    {% endif %}
+    {% if page.meta.date %}
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1em; height: 1em; vertical-align: -0.125em; fill: currentColor;"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
+      {{ page.meta.date }}
+    </span>
+    {% endif %}
+  </div>
+  {% endif %}
+  {{ parts[1] }}
+{% endif %}

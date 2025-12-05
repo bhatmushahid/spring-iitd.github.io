@@ -35,14 +35,12 @@ Make sure you have set your proxy variables in the git config.
  git config --global https.proxy https://proxy61.iitd.ac.in:3128
 ```
 
-> [!TIP]
->
-> Note that it would be
->
-> - `proxy21` for BTech
-> - `proxy61` for PhD
-> - `proxy62` for Dual Degree and MTech
-> - `xen03` for research proxy
+!!! note "Use the appropriate proxy"
+
+    - `proxy21` for BTech
+    - `proxy61` for PhD
+    - `proxy62` for Dual Degree and MTech
+    - `xen03` for research proxy
 
 ## Repository not cloning
 
