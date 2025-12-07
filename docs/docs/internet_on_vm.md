@@ -1,3 +1,8 @@
+---
+authors:
+  - Anupam Sobti
+date: 2024-03-15
+---
 # Enabling Internet Access on a VM / PC (IITD Proxy)
 
 This guide explains how to enable internet access on your VM or local machine inside the IIT Delhi network using either a **login script** or a **GUI login**.
@@ -8,7 +13,9 @@ This guide explains how to enable internet access on your VM or local machine in
 
 2. Download the proxy script using the following command:
 
-```wget www.cse.iitd.ac.in/~anupam/proxy.sh```
+```bash
+wget www.cse.iitd.ac.in/~anupam/proxy.sh
+```
 
 3. Edit the file to include your username/password. Also, if you're not a PhD student, you'll have to modify proxy61 to the appropriate url in the script.
 4. Make the script executable using the command:

@@ -1,3 +1,9 @@
+---
+authors:
+  - Anupam Sobti
+date: 2024-03-15
+---
+
 # Using HPC at IITD
 
 ## Overview
@@ -6,7 +12,7 @@
 
 ## Getting Access
 
-You may request access from [here](https://userm.iitd.ac.in/usermanage/hpc.html). Login with your kerberos ID. The uuid is the username for the faculty who is going to approve your request, e.g., chetan. You will have to be on the IITD Internal network for doing this. You may use [ssh](living-life-in-an-ssh-session.md) or VPN for connecting to the IITD Network from outside.
+You may request access from [here](https://userm.iitd.ac.in/usermanage/hpc.html). Login with your kerberos ID. The uuid is the username for the faculty who is going to approve your request, e.g., chetan. You will have to be on the IITD Internal network for doing this. You may use [ssh](ssh_session.md) or VPN for connecting to the IITD Network from outside.
 
 ## Getting Started
 
@@ -17,7 +23,7 @@ CPU Login Shell: ssh <kerberos_user>@hpc.iitd.ac.in
 GPU Login Shell: ssh <kerberos_user>@gpu.hpc.iitd.ac.in
 ```
 
-In my earlier experience, I am only able to access internet on the CPU login shell. If you need help logging into proxy, look [here](internet-on-my-terminal.md). I was able to test that the internet works on interactive shells as well (described later).
+In my earlier experience, I am only able to access internet on the CPU login shell. If you need help logging into proxy, look [here](internet_on_my_terminal.md). I was able to test that the internet works on interactive shells as well (described later).
 
 You now have access to the HPC directories. You would be logging into the home area for your user. Use the home area for critical files, output logs etc. The home area has limited storage (30G), but it is not erased during maintenance. Another area of use is the scratch area which has 200TB per user (Yeah!). [Source](http://supercomputing.iitd.ac.in/?FAQ)
 
@@ -63,10 +69,10 @@ While you can test and run day-long jobs in the interactive shell (use tmux or s
 
 I have 4 scripts which I use frequently.
 
-- [Short CPU](./small_cpu_job.sh)
-- [Long CPU](./long_cpu_job.sh)
-- [Short GPU](./small_gpu_job.sh)
-- [Long GPU](./long_gpu_job.sh)
+- [Short CPU](./files/small_cpu_job.sh)
+- [Long CPU](./files/long_cpu_job.sh)
+- [Short GPU](./files/small_gpu_job.sh)
+- [Long GPU](./files/long_gpu_job.sh)
 
 You may use these as
 

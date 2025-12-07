@@ -35,17 +35,25 @@ nav:
     - About: "index.md"
     - 'Proxy Login':
         - 'Setting up Proxy': "proxy_setup.md"
-        - 'Logging In': "internet_on_vm.md"
+        - 'Log In to the Proxy': "internet_on_vm.md"
         - 'Internet on Terminal': "internet_on_my_terminal.md"
+    - 'Working Remotely':
+        - "Using SSH": "ssh_session.md"
+        - "Using VNC": "vnc_setup.md"
+    - 'Using HPC': 'using_hpc.md'
+    - 'Setting up ML Environments':
+        - 'Using Poweredge Server': "server_setup.md"
+        - 'Using Conda': 'using_conda.md'
+    - 'Setting up New Machines':
+        - 'Package Installation (APT)' : "package_installation.md"
+        - 'WiFi on Raspberry Pi': "wifi_on_raspberry_pi.md"
     - 'Working with Docker':
         - 'Installing Docker': "docker_install.md"
-        - 'Docker Config': "docker_proxy_settings.md"
-    - 'SSH : Working remotely': "living_life_in_an_ssh_session.md"
-    - 'Package Installation (APT)' : "package_installation.md"
-    - 'Using HPC': 'using_hpc.md'
-    - 'Using Conda': 'using_conda.md'
-    - 'Raspberry Pi': "wifi_on_raspberry_pi.md"
-    - 'Git config': "git_errors.md"
+        - 'Proxy Configuration for Docker': "docker_proxy_settings.md"
+    - 'Configuring Git/Github': "git_errors.md"
+    - 'Making Presentations': "making_presentations.md"
+    - 'Printer Setup': "printer.md"
+    - 'FAQs': "faqs.md"
 
 markdown_extensions:
   - admonition

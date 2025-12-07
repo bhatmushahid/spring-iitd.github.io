@@ -1,6 +1,12 @@
+---
+authors:
+  - Anupam Sobti
+date: 2024-03-15
+---
+
 CSE department allows you to host a static website at the url www.cse.iitd.ac.in/~<user>. Following steps need to be followed:
 
-* Go to GCL Lab (4th floor, Bharti Building) and submit the application for a new account. 
+* Go to GCL Lab (4th floor, Bharti Building) and submit the application for a new account.
 * Make sure you request the username you want to be your website url. The URL hosted would be www.cse.iitd.ac.in/~username
 * Once you get the username, ssh to palasi/sri from anywhere in the IIT network.
 `ssh username@palasi.cse.iitd.ac.in`

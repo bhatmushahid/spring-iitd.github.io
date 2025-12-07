@@ -1,4 +1,6 @@
-# Proxy Settings for Docker
+# Proxy Configuration for Docker
+
+This guide explains how to configure Docker to work behind the IIT Delhi proxy.
 
 ## Setting up proxy for Docker Client
 

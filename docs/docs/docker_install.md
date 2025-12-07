@@ -1,9 +1,3 @@
----
-authors:
-  - SPRING Lab
-date: 2025-12-06
----
-
 # Installing Docker
 
 This documentation is adapted from the official Docker documentation [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/).
