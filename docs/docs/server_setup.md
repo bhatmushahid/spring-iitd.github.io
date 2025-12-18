@@ -2,7 +2,7 @@
 
 When you login to the server, you are moved into the home directory `/home/<username>`. You are allocated a soft limit of 25GB and hard limit of 40GB (Files would be deleted after 7 days) for code files. Your home page contains a `/scratch` folder where there is no limits. Hence, it's recommended to put all your heavy stuffs like data and models in the scratch and use the home folder storage only for code and other lighter files. This quota is added for all the users.
 
-If you need access to the server, please contact the Anwesh Badapanda (https://spring.iitd.ac.in/team/)
+If you need access to the server, please contact Anwesh Badapanda (https://spring.iitd.ac.in/team/)
 
 ## Proxy and Internet Access
 
@@ -36,7 +36,7 @@ Step 2: Install Miniconda
 
 ```bash
 bash Miniconda3-py310_24.5.0-0-Linux-x86_64.sh
-eval "$(/home/<username>/miniconda3/bin/conda shell.bash hook)"
+eval "$(/home/<username>/scratch/miniconda3/bin/conda shell.bash hook)"
 conda init
 conda create -n <env-name> python=3.10
 conda activate <env-name>
