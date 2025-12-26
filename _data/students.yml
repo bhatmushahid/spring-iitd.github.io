@@ -86,7 +86,17 @@
   number_educ: 2
   education1: Masters, IIT Delhi
   education2: Bachelors, MDU Rohtak
-
+  
+- name: Mushahid Bhat
+  photo: mushahid.jpg
+  info: Department of CSE, IIT Delhi
+  email: 2025csz8525[at]iitd.ac.in
+  website: htps://mbhat.in
+  project: Network Security for Large-Scale Networks using Machine Learning
+  number_educ: 1
+  education1: B.TECH CSE University of Kashmir
+  
+  
 - name: Avinash Jha
   photo: avinash.jpeg
   info: Department of CSE, IIT Delhi
